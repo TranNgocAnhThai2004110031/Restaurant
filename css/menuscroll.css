@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lobster&family=Pattaya&display=swap');
+:root{
+    --main-color: #0d0e10;
+    --sub-color: #EAA023;
+    --text-color: #ffffff;
+    --texthv-color: #ffad1e;
+    --texthvs-color: #d8d6d3;
+    --btn-color: #ffbe33;
+    --btnhv-color: #e69c00;
+    --bg-color: #85793d;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    line-height: 1.5;
+}
+.menu-head{
+    padding: 30px;
+    background-color: var(--main-color);
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 18%;
+    height: 90%;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1;
+}
+.main-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-head ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.main-head aside li{
+    padding:  5px 10px;
+    border: none;
+    display: inline-block;
+    padding: 5px;
+    transition: all 0.5s linear;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.main-head aside li a{
+    color: var(--btn-color);
+    font-weight: 500;
+    padding: 5px;
+    text-decoration: none;
+}
+.main-head aside li a:hover{
+    color: var(--text-color);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+.main-head ul li.active{
+    background-color: orangered;
+    display: inline-block;
+    padding: 5px;
+}

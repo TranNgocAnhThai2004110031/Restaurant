@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lobster&family=Pattaya&display=swap');
+:root{
+    --main-color: #0d0e10;
+    --sub-color: #EAA023;
+    --text-color: #ffffff;
+    --texthv-color: #ffad1e;
+    --texthvs-color: #d8d6d3;
+    --btn-color: #ffbe33;
+    --btnhv-color: #e69c00;
+    --bg-color: #85793d;
+}
+*{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--main-color);
+    line-height: 1.5;
+}
+a{
+    text-decoration: none;
+}
+/* *{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 50px;
+    color: var(--text-color);
+    font-family: 'Pattaya', sans-serif;
+}
+p{
+    font-size: 25px;
+    color: var(--text-color);
+    font-weight: bold;
+    margin: 15px 0;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+}
+.container{
+    margin: auto;
+    max-width: 1200px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify_content{
+    justify-content: space-around; 
+    align-items: center;
+} */
+
+/* begin menu right */
+/* header{
+    position: sticky;
+} */
+.menu_dish{
+    background-color: var(--main-color);
+    display: flex;
+}
+.menu_dish_item{
+    /* border: 2px solid #EAA023; */
+    content: "";
+    position: fixed;
+    /* margin-top: 5%; */
+    width: 18%;
+    height: 100%;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    background-color: var(--main-color);
+    z-index: 1;
+    /* border: 2px solid white; */
+}
+.menu_dish_item ul{
+    height: fit-content;
+    /* border: 2px solid #EAA023; */
+    /* margin-top: -30%; */
+}
+.menu_dish_item ul li{
+    padding: 10px 0;
+}
+.menu_dish_item ul li a{
+    display: flex;
+    justify-content: end;
+    color: var(--btn-color);
+}
+.menu_dish_item ul li a:hover{
+    color: var(--text-color);
+}
+.menu_dish_item ul li.active{
+    color: var(--text-color);
+}
+/* end menu right */
+/* .menu_top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-color);
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    font-weight: bold;
+} */
+nav{
+    text-align: center;
+    padding: 20px;
+}
+nav h2{
+    color: var(--bg-color);
+}
+#omakase{
+    /* margin-top: 3%; */
+    padding: 3%;
+}
+/* begin slider */
+.image-slider{
+    /* display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px; */
+    /* padding-bottom: 50px; */
+}
+.image{
+    width: 70vw;
+    height: 600px;
+    margin-bottom: 20px;
+}
+.image img{
+    width: 69vw; /* mới thay đổi */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.image-item{
+    position: relative;
+}
+.image-title{
+    position: absolute;
+    top: 0;
+    right: 13.6%;
+    bottom: 0;
+    width: 30%;
+    height: 600px;
+    /* font-size: 10px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--main-color);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0 10px 10px 0;
+}
+.image-title h2{
+    color: var(--main-color);
+    font-size: 40px;
+}
+.image-title h6{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+}
+.image-title p{
+    font-size: 20px;
+    color: var(--main-color);
+    text-align: center;
+}
+.image-title h3{
+    /* font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 25px; */
+    font-size: 25px;
+    margin-top: 10px;
+}
+.slick-initialized .slick-slide{
+    /* margin: 0 10px; */
+}
+/* chỉnh vị trí button */
+.slick-arow{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    background-color: transparent;
+    line-height: 1;
+    z-index: 2;
+    transition: all 0.2s linear;
+}
+.slick-arow:hover {
+    /* background-color: aqua; */
+    color: var(--bg-color);
+}
+.slick-prev{
+    left: 0;
+}
+.slick-next{
+    right: 13.6%;
+}
+.slick-dots{
+    position: absolute;
+    bottom: 5%;
+    left: 43%;
+    transform: translate(-50%, 0);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.slick-dots button{
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 100rem;
+    background-color: var(--main-color);
+    margin: 0 10px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+.slick-dots .slick-active button{
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border: 2px solid var(--main-color);
+}
+
+.slick-list{
+    width: 80vw;
+}
+.slick-list .draggable{
+    width: 100%;
+}
+/* end slider */
+/* begin Choose retail */
+figcaption{
+    text-align: center;
+}
+figcaption h4{
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.menu-nigiri, .menu-sashimi, .menu-appetizer, .menu-handroll, .menu-sake{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu-nigiri ul, .menu-sashimi ul, .menu-appetizer ul, .menu-handroll ul, .menu-sake ul{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.menu-nigiri ul li{
+    background-color: #d8d6d3;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.menu-nigiri ul li h4{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.menu-nigiri ul li h5{
+    font-size: 20px;
+    padding-top: 10px;
+}
+.menu-sashimi ul li, .menu-appetizer ul li, .menu-handroll ul li, .menu-sake ul li{
+    margin: 20px;
+    width: 26%;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+.menu-sashimi ul li img, .menu-appetizer ul li img, .menu-handroll ul li img, .menu-sake ul li img{
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+    /* height: 100%; */
+    /* overflow: hidden; */
+}
+.menu-sashimi ul li h4, .menu-appetizer ul li h4, .menu-handroll ul li h4, .menu-sake ul li h4{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.menu-sashimi ul li h5, .menu-appetizer ul li h5, .menu-handroll ul li h5, .menu-sake ul li h5{
+    font-size: 20px;
+    padding-top: 10px;
+    color: var(--texthvs-color);
+}
+.menu-nigiri ul li:hover, .menu-sashimi ul li:hover, .menu-appetizer ul li:hover, .menu-handroll ul li:hover, .menu-sake ul li:hover{
+    transform: scale(1.1);
+    /* animation: Inout 10s infinite; */
+}
+
+
+/* .menu-sake ul li h5{
+    font-size: 20px;
+    padding-top: 10px;
+    color: var(--texthvs-color);
+    text-align: center;
+    padding: 0 10px;
+} */
+/* end Choose retail */

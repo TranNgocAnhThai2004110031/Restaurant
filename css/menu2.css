@@ -1,0 +1,217 @@
+/* Mobile: width < 740px */
+@media screen and (max-width: 46.1875em) {
+    .menu-head{
+        /* background-color: aliceblue; */
+        width: 100%;
+        height: fit-content;
+        margin-top: 12.7%;
+        padding: 0;
+    }
+    .main-head ul{
+        flex-direction: row;
+    }
+    .main-head aside li{
+        margin: 0;
+    }
+    .main-head aside li a{
+        font-size: 14px;
+        padding: 2px;
+    }
+    .main-head aside li.links{
+        height: fit-content;
+    }
+    .main-head aside li.active{
+        padding: 2px;
+    }
+    nav{
+        padding: 0;
+    }
+    nav h2{
+        font-size: 30px;
+    }
+    #omakase nav h2{
+        margin-top: 30%;
+    }
+    #omakase hr{
+        margin: 0;
+    }
+    .image-slider{
+        width: 100%;
+    }
+    .image-item{
+        width: 100%;
+    }
+    .image{
+        /* width: 100%;
+        height: 100%; */
+        margin: 0 20px 0 -10px;
+        top: 100%;
+        height: 650px;
+    }
+    .image img{
+        margin: 0 20px 0 10px;
+        width: 110%;
+        height: 50%;
+        margin-right: 20px;
+        margin-left: 18px;
+    }
+    .image-title{
+        top: 50%;
+        right: 10px;
+        width: 100%;
+        margin: 0 -10.09px 0 0;
+        border-radius: 10px;
+        justify-content: flex-start;
+    }
+    .image-title h2{
+        font-size: 20px;
+        margin: 0;
+    }
+    .image-title h6{
+        padding: 0;
+        margin: 0 5px;
+        font-size: 16px;
+    }.image-title p{
+        margin: 0;
+        font-size: 16px;
+    }
+    .image-title h3{
+        font-size: 18px;
+    }
+    .slick-dots{
+        bottom: 48%;
+    }
+    #nigiri hr{
+        margin: 5px 0;
+    }
+    figcaption h4{
+        font-size: 18px;
+    }
+    .menu-nigiri ul, .menu-sashimi ul, .menu-appetizer ul, .menu-handroll ul, .menu-sake ul{
+        width: 100%;
+    }
+    .menu-nigiri ul li{
+        padding: 5px;
+    }
+    .menu-nigiri ul li h4{
+        font-size: 20px;
+    }
+    .menu-nigiri ul li h5{
+        font-size: 18px;
+    }
+    .menu-sashimi ul li, .menu-appetizer ul li, .menu-handroll ul li, .menu-sake ul li{
+        width: 35%;
+    }
+}
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .menu-head{
+        /* background-color: aliceblue; */
+        width: 100%;
+        height: fit-content;
+        margin-top: 6.4%;
+        padding: 0;
+    }
+    .main-head ul{
+        flex-direction: row;
+    }
+    .main-head aside li{
+        margin: 0;
+    }
+    .main-head aside li a{
+        font-size: 18px;
+        padding: 2px;
+    }
+    .main-head aside li.links{
+        height: fit-content;
+    }
+    .main-head aside li.active{
+        padding: 2px;
+    }
+    nav{
+        padding: 0;
+    }
+    nav h2{
+        font-size: 30px;
+    }
+    #omakase nav h2{
+        margin-top: 13.5%;
+    }
+    #omakase hr{
+        margin: 0;
+    }
+    .image-slider{
+        width: 100%;
+    }
+    .image-item{
+        width: 100%;
+    }
+    .slick-list .draggable{
+        width: 150%;
+    }
+    .image{
+        width: 100%;
+        margin: 0 20px 0 -18px;
+        top: 100%;
+        height: 650px;
+    }
+    .image img{
+        margin: 0 20px 0 10px;
+        width: 110%;
+        height: 50%;
+        margin-right: 20px;
+        margin-left: 18px;
+    }
+    .image-title{
+        top: 50%;
+        right: 10px;
+        width: 100%;
+        margin: 0 -10.09px 0 0;
+        border-radius: 10px;
+        justify-content: flex-start;
+    }
+    .image-title h2{
+        font-size: 20px;
+        margin: 0;
+    }
+    .image-title h6{
+        padding: 0;
+        margin: 0 5px;
+        font-size: 18px;
+    }.image-title p{
+        margin: 0;
+        font-size: 18px;
+    }
+    .image-title h3{
+        font-size: 18px;
+    }
+    .slick-arow{
+        top: 26%;
+    }
+    .slick-next{
+        right: 10%;
+    }
+    .slick-dots{
+        bottom: 50%;
+    }
+    #nigiri hr{
+        margin: 5px 0;
+    }
+    figcaption h4{
+        font-size: 20px;
+    }
+    .menu-nigiri ul, .menu-sashimi ul, .menu-appetizer ul, .menu-handroll ul, .menu-sake ul{
+        width: 100%;
+    }
+    .menu-nigiri ul li{
+        padding: 5px;
+    }
+    .menu-nigiri ul li h4{
+        font-size: 20px;
+    }
+    .menu-nigiri ul li h5{
+        font-size: 18px;
+    }
+    .menu-sashimi ul li, .menu-appetizer ul li, .menu-handroll ul li, .menu-sake ul li{
+        width: 35%;
+    }
+}

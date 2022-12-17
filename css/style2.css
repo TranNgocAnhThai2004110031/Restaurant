@@ -1,0 +1,285 @@
+/* Mobile: width < 740px */
+@media screen and (max-width: 46.1875em) {
+    .top .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .nav{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        background-color: #0d0e10;
+    }
+    .menu_bar ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu_bar ul li{
+        padding: 0;
+        margin: 0 10px;
+    }
+    .menu_bar #toggle{
+        display: block;
+    }
+    .menu_bar{
+        order: 1;
+    }
+    .menu_bar nav{
+        display: none;
+    }
+    #button{
+        width: 77px;
+        height: 31px;
+        border-radius: 26px;
+        font-size: 10px;
+    }
+    .about_items_img span{
+        font-size: 18px;
+        z-index: 3;
+    }
+    .about_items_img::before{
+        width: 50px;
+        height: 50px;
+        top: 5%;
+        left: 30%;
+        z-index: 1;
+    }
+    .about .about_img img{
+        margin: 0;
+    }
+    .about{
+        padding: 30px 0;
+    }
+    .about_items{
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_items h2{
+        margin-top: 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .about_items p{
+        font-size: 18px;
+    }
+    .menu_tile{
+        padding-top: 30px;
+    }
+    .menu_tile h2{
+        font-size: 25px;
+    }
+    .menu_tile p{
+        font-size: 20px;
+    }
+    .menu_item{
+        padding: 0;
+        margin: 0;
+    }
+    .menu_item ul{
+        height: 30vh;
+    }
+    .menu_item a p{
+        font-size: 20px;
+        padding: 5px 0;
+    }
+    .menu_item ul li{
+        width: 300px;
+        height: 100%;
+        margin: 0 ;
+    }
+    #retail{
+        margin: 0 10px;
+    }
+    .booking{
+        margin: 20px 0;
+    }
+    .booking h2{
+        font-size: 25px;
+    }
+    .form-control{
+        font-size: 12px;
+    }
+    .custom-select{
+        font-size: 12px;
+    }
+    .book-title input{
+        margin: 0 0 10px 0;
+    }
+    .footer{
+        margin: 20px 0;
+        padding: 0;
+    }
+    .footer .col-md-4 h4{
+        margin: 10px 0;
+        padding: 0;
+    }
+    .footer_center h2{
+        margin: 10px 0;
+        font-size: 30px !important;
+    }
+    .footer_center p{
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .footer .col-md-4 h4{
+        margin: 20px 0 10px;
+        padding: 0;
+    }
+    .footer_rigth p{
+        margin: 0;
+        padding: 0;
+    }
+    .footer_bottom{
+        margin-top: 20px;
+    }
+    .footer_bottom p{
+        font-size: 17px;
+    }
+}
+/* Tablet: width >= 740px and width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .top .logo img{
+        width: 50px;
+        height: 50px;
+    }
+    .nav{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        background-color: #0d0e10;
+    }
+    .menu_bar ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu_bar ul li{
+        padding: 0;
+        margin: 0 10px;
+    }
+    .menu_bar #toggle{
+        display: block;
+    }
+    .menu_bar{
+        order: 1;
+    }
+    .menu_bar nav{
+        display: none;
+    }
+    #button{
+        width: 100px;
+        height: 31px;
+        border-radius: 26px;
+        font-size: 14px;
+    }
+    .about_items_img span{
+        font-size: 20px;
+        z-index: 3;
+    }
+    .about_items_img::before{
+        width: 50px;
+        height: 50px;
+        top: 5%;
+        left: 30%;
+        z-index: 1;
+    }
+    .about{
+        padding: 30px 0;
+    }
+    .about_items{
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about_items h2{
+        margin-top: 10px;
+        font-size: 25px;
+        text-align: center;
+    }
+    .about_items p{
+        font-size: 18px;
+    }
+    .menu_tile{
+        padding-top: 30px;
+    }
+    .menu_tile h2{
+        font-size: 25px;
+    }
+    .menu_tile p{
+        font-size: 20px;
+    }
+    .menu_item{
+        padding: 0;
+        margin: 0;
+    }
+    .menu_item ul{
+        height: 50vh;
+    }
+    .menu_item a p{
+        font-size: 20px;
+        padding: 5px 0;
+    }
+    .menu_item ul li{
+        width: 300px;
+        height: 100%;
+        margin: 0 ;
+    }
+    #retail{
+        margin: 0 10px;
+    }
+    .booking{
+        margin: 20px 0;
+    }
+    .booking h2{
+        font-size: 25px;
+    }
+    .form-control{
+        font-size: 12px;
+    }
+    .custom-select{
+        font-size: 12px;
+    }
+    .book-title input{
+        margin: 0 0 10px 0;
+    }
+    .footer{
+        margin: 20px 0;
+        padding: 0;
+    }
+    .footer .col-md-4 h4{
+        margin: 10px 0;
+        padding: 0;
+    }
+    .footer_center h2{
+        margin: 10px 0;
+        font-size: 30px !important;
+    }
+    .footer_center p{
+        margin-top: 0;
+        font-size: 14px;
+    }
+    .footer .col-md-4 h4{
+        margin: 20px 0 10px;
+        padding: 0;
+    }
+    .footer_rigth p{
+        margin: 0;
+        padding: 0;
+    }
+    .footer_bottom{
+        margin-top: 20px;
+    }
+    .footer_bottom p{
+        font-size: 17px;
+    }
+}
+/* PC: width >= 1024px */
+/* @media screen and (min-width: 64em) {
+
+} */

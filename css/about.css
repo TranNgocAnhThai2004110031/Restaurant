@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pattaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lobster&family=Pattaya&display=swap');
+:root{
+    --main-color: #0d0e10;
+    --sub-color: #EAA023;
+    --text-color: #ffffff;
+    --texthv-color: #ffad1e;
+    --texthvs-color: #d8d6d3;
+    --btn-color: #ffbe33;
+    --btnhv-color: #e69c00;
+    --bg-color: #85793d;
+}
+body{
+    background-color: var(--main-color);
+}
+.about .row{
+    margin-top: 5%;
+}
+.omakase{
+    background-color: rgb(44, 43, 43);
+    height: 60vh;
+}
+.omakase-title h4, .space-title h4{
+    font-size: 45px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: var(--text-color);
+    margin-top: 30px;
+    text-align: center;
+}
+.omakase-title p ,.space-title p{
+    text-align: justify;
+    font-size: 25px;
+}
+.omakase-image{
+    padding: 0;
+    margin: 0;
+}
+.omakase-image img{
+    height: 75%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+    margin-left: 10%;
+}
+.space{
+    background-color: var(--main-color);
+    height: 60vh;
+}
+.space-image img{
+    width: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 27px;
+}
+.space-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+.dish{
+    background-color: var(--main-color);
+}
+.dish-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dish-item ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+.dish-item ul li{
+    width: 45%;
+    margin: 10px;
+    padding: 20px;
+    overflow: hidden;
+}
+.dish-item ul li img{
+    width: 100%;
+    height: 324px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+figcaption{
+    text-align: justify;
+}
+figcaption p{
+    color: var(--text-color);
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+.person{
+    background-color: rgb(44, 43, 43);
+    height: fit-content;
+}
+.person nav{
+    color: var(--text-color);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    padding: 20px;
+}
+.person nav h3{
+    font-size: 40px;
+}
+.person-image{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.person-image img{
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.person-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.person-title p{
+    margin: -30px 0 0 0;
+    text-align: justify;
+    font-size: 23px;
+}

@@ -1,0 +1,70 @@
+/* Mobile: width < 740px */
+@media screen and (max-width: 46.1875em) {
+    .omakase{
+        height: fit-content;
+    }
+    .omakase-title h4, .space-title h4{
+        font-size: 35px;
+    }
+    .omakase-title p ,.space-title p{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .omakase-image img{
+        width: 80%;
+    }
+    .space-image img{
+        margin-left: 5%;
+    }
+    .dish-item ul li{
+        width: 100%;
+    }
+    .dish-item ul li:first-child{
+        margin-top: 50%;
+    }
+    .person-image img{
+        margin-left: 5%;
+    }
+    .person-title{
+        margin-top: 5%;
+    }
+    .person-title p{
+        font-size: 20px;
+        margin-bottom: 10%;
+    }
+}
+/* Tablet: width >= 740px and width < 1024px */
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .omakase{
+        height: fit-content;
+    }
+    .omakase-title h4, .space-title h4{
+        font-size: 35px;
+    }
+    .omakase-title p ,.space-title p{
+        font-size: 20px;
+        padding: 0 10px;
+    }
+    .omakase-image img{
+        width: 80%;
+    }
+    .space-image img{
+        margin-left: 5%;
+    }
+    .dish-item ul li{
+        width: 40%;
+    }
+    /* .dish-item ul li:first-child{
+        margin-top: 50%;
+    } */
+    .person-image img{
+        margin-left: 5%;
+    }
+    .person-title{
+        margin-top: 5%;
+    }
+    .person-title p{
+        font-size: 20px;
+        margin-bottom: 10%;
+    }
+}
